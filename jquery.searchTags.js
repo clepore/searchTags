@@ -35,7 +35,7 @@
       });
 
       // Event to add tag on input enter keypress
-      $(data.tagSourceInput).keydown(function(e) {
+      $('.tag-source-input').keydown(function(e) {
         if (e.which === 13) {
           e.preventDefault();
           functions.addTag.call($self, this);
