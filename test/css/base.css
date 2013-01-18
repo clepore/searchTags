@@ -1,0 +1,19 @@
+
+.content-area {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.shop-sidenav {
+}
+
+#shop-content .shop-row .shop-block:nth-child(2) {
+  margin-left: 0px;
+}
+
+.shop-block {
+  background-color: #eee;
+  height: 240px;
+  margin: 10px 0 0 20px;
+  width: 242px;
+}
