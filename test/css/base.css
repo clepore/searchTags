@@ -4,8 +4,42 @@
   margin: 0 auto;
 }
 
+.form-inline {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.tag-bar .breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.tag-bar .breadcrumb {
+  margin: 0;
+  padding: 0;
+}
+
+.tag-bar .breadcrumb li {
+  border: solid 1px #eee;
+  border-radius: 6px;
+  padding: 4px;
+  margin: 0 4px;
+}
+
+.tag-bar .breadcrumb li .label {
+  background-color: transparent;
+  color: #000;
+  font-weight: normal;
+  text-shadow: none;
+  padding: 2px 4px;
+}
+
+.tag-bar .breadcrumb .icon-remove-circle {
+  cursor: pointer;
+}
+
 .shop-block {
-  background-color: #eee;
   height: 240px;
   margin: 10px 0 0 20px;
   width: 242px;
