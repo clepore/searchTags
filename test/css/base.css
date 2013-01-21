@@ -4,13 +4,6 @@
   margin: 0 auto;
 }
 
-.shop-sidenav {
-}
-
-#shop-content .shop-row .shop-block:nth-child(2) {
-  margin-left: 0px;
-}
-
 .shop-block {
   background-color: #eee;
   height: 240px;
