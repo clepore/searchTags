@@ -112,6 +112,8 @@
     tagSourceInput: '.tag-source-input',
     buttonRemove: '.tag-remove',
     buttonRemoveAll: '.tag-clear',
-    tagTemplate: "<div class='tag-item'>{VALUE}</div>"
+    tagTemplate: "<div class='tag-item'>{VALUE}</div>",
+    addCallback: function() {},
+    removeCallback: function() {}
   };
 })(jQuery);
