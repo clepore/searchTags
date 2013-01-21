@@ -72,12 +72,18 @@
       var newTag = data.options.tagTemplate.replace('{VALUE}', tagText);
       $newTag = $(newTag);
       $self.append($newTag);
+
+      data.options.addCallback();
     },
 
     // Remove a tag from tag bar
     removeTag: function(thisElem) {
       var $thisElem = $(thisElem);
+      var $self = $(this);   
+      var data = $self.data('searchTags');  
       $thisElem.closest('.tag-item').remove();
+
+      data.options.removeCallback();
     },
 
     // Clear all tags from tag bar
